@@ -1,0 +1,317 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* css reset */
+
+.content{
+    margin:0 auto;
+    max-width: 1110px;
+}
+
+/* header start */
+.header {
+    width: 100%;
+    height: 56px;
+    background:#FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.headerInfo {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.logoArea .logo {
+    margin-top: 9px;
+    margin-left: 10px;
+    float: left;
+    width: 128px;
+    height: 38px;
+    background: transparent url('img/d’Perfume.png') 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+    line-height: 56px;
+}
+
+
+.menu li {
+    float: right;
+}
+
+.menu .topic {
+    display: block;
+    min-width: 100px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+    line-height: 56px;
+}
+
+.headerimg{
+    width: 18px;
+    height: 18px;
+    line-height: 56px;
+}
+
+/* header end */
+
+.bar{
+    background: #916000 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 100%;
+height: 52px;
+}
+.bardiv{
+    width: 100%;
+    display: flex;
+    height: 52px;
+}
+.bg{
+    width: 100%;
+}
+a.bartext{
+    display: block;
+    max-width: 125px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: 52px
+}
+
+.container1{
+    margin-top: 50px;
+}
+.flex{
+    display: flex;
+}
+.left{
+    width: 66%;
+}
+.left .img1{
+    max-width:100%;
+    margin-block-end: 30px;
+}
+.right{
+    padding-left: 20px;
+    width: 33%;
+}
+.left .img2{
+    box-sizing: border-box;
+    max-width: 50%;
+    float: left;
+    padding-right:15px;
+    margin-bottom: 30px;
+}
+.left .img3{
+    float: left;
+    box-sizing: border-box;
+    max-width: 50%;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+h1.topic{
+    text-align: left;
+font: normal normal bold 32px/48px SF Pro Text;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+h2.topic2{
+    text-align: left;
+font: normal normal 300 20px/30px PingFang TC;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+p.price{
+    text-align: left;
+font: normal normal 300 20px/30px SF Pro Text;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.selectButton{
+    width: 100%;
+}
+.select{
+    float: left;
+    width: 45%;
+    height: 40px;
+    line-height: 50px;
+}
+a.add{
+    float: left;
+    text-align: right;
+font: normal normal normal 16px/22px PingFang TC;
+letter-spacing: 0px;
+color:#FFFFFF;
+background-color: #916000;
+text-decoration: none;
+line-height: 50px;
+text-align: center;
+opacity: 1;
+display: block;
+width: 50%;
+height: 50px;
+}
+p.text{
+    text-align: left;
+font: normal normal normal 16px/24px PingFang TC;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mgb2{
+    margin-bottom: 80px !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+.right h3{
+    margin-bottom: 32px;
+}
+.right p{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/* footer start */
+.footdiv{
+    width: 100%;
+    height: 80px;
+}
+.footer{
+    background: #916000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 80px;
+}
+.footimg{
+    float: left;
+    width: 192px;
+height: 80px;
+    background: transparent url('img/d’Perfumewhite.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-top: 20px;
+}
+.copyright{
+    float :left;
+    text-align: left;
+font: normal normal medium 14px/21px SF Pro Text;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+line-height: 80px;
+}
+ul.foot{
+    float: right;
+    display: flex;
+}
+a.folink{
+    text-align: left;
+font: normal normal normal 20px/30px SF Pro Text;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+display: block;
+line-height: 80px;
+padding-left: 18px;
+padding-right: 18px;
+text-decoration: none;
+}
+.display-re{
+    display: none;
+}
+/* RWD */
+
+@media(max-width:700px){
+    .bar{
+        display:none;
+    }
+    .bardiv{
+        display: none;
+    }
+    .display-n{
+        display: none !important;
+    }
+    .flex{
+        display: unset;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .content{
+        padding:  0px 10px 0px 10px;
+    }
+    /* p.text{
+        padding: 0px 10px 0px 10px;
+    } */
+    .display-re{
+        display: block;
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+}
